@@ -1,0 +1,195 @@
+{
+  "id": "9a1392c1-ad9e-484c-89ee-9de982a315c6",
+  "version": "2.0",
+  "name": "ManuelTest",
+  "url": "https://www.e-bebek.com",
+  "tests": [{
+    "id": "df10e96a-169c-4b2e-8cd7-57b3aa3844b7",
+    "name": "ManuelTest",
+    "commands": [{
+      "id": "8818cc55-71b2-43d8-a39b-a7d62e82fb7f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1903609e-ff0e-46bc-890d-73075d3b4019",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "127950d2-2b8a-4fad-94eb-c9b35a1057c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c186-0:nth-child(1) .owl-item:nth-child(3) #addToCartBtn",
+      "targets": [
+        ["css=.ng-tns-c186-0:nth-child(1) .owl-item:nth-child(3) #addToCartBtn", "css:finder"],
+        ["xpath=(//button[@id='addToCartBtn'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/eb-carousel-product-item/div/div/div/div/eb-add-to-cart/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03722cc1-5b68-4c81-9cf4-f4ab420d6f46",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnShowCart",
+      "targets": [
+        ["id=btnShowCart", "id"],
+        ["linkText=Sepeti Gör", "linkText"],
+        ["css=#btnShowCart", "css:finder"],
+        ["xpath=//a[contains(text(),'Sepeti Gör')]", "xpath:link"],
+        ["xpath=//a[@id='btnShowCart']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '/cart')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sepeti Gör')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "538dbd8c-1bc4-4d42-b242-b4b781a322f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,952)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4a967f3-9546-4c9a-95d8-6316fbc48ea9",
+      "comment": "",
+      "command": "click",
+      "target": "id=iconRemoveProduct",
+      "targets": [
+        ["id=iconRemoveProduct", "id"],
+        ["css=#iconRemoveProduct", "css:finder"],
+        ["xpath=//i[@id='iconRemoveProduct']", "xpath:attributes"],
+        ["xpath=//div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "97412f75-c23e-40aa-a0af-952cd775c4ed",
+    "name": "ManuelTest2",
+    "commands": [{
+      "id": "4ebeaa28-0185-469b-bbcd-952029646ab6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fc3fe1c-2853-4311-84bf-180559a41aba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1600x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d2dd0fd-c9f2-49ce-8b55-270fab8ba7f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,39)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abdd7d14-ed85-4215-b7c7-b5c39677a553",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1042)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f951769e-fdd7-4d0b-93b8-91936371d1a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c186-0:nth-child(1) .owl-item:nth-child(3) #addToCartBtn",
+      "targets": [
+        ["css=.ng-tns-c186-0:nth-child(1) .owl-item:nth-child(3) #addToCartBtn", "css:finder"],
+        ["xpath=(//button[@id='addToCartBtn'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/eb-carousel-product-item/div/div/div/div/eb-add-to-cart/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d337a64-dd62-4364-84ca-b743a6656654",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnShowCart",
+      "targets": [
+        ["id=btnShowCart", "id"],
+        ["linkText=Sepeti Gör", "linkText"],
+        ["css=#btnShowCart", "css:finder"],
+        ["xpath=//a[contains(text(),'Sepeti Gör')]", "xpath:link"],
+        ["xpath=//a[@id='btnShowCart']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '/cart')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sepeti Gör')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34dd7cc0-8f00-41da-adea-1b525d44b551",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1164)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c098d76d-c894-402c-abf5-d333c06f6358",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnPlus",
+      "targets": [
+        ["id=btnPlus", "id"],
+        ["css=#btnPlus", "css:finder"],
+        ["xpath=//i[@id='btnPlus']", "xpath:attributes"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20f6472a-3b34-49b9-9d47-739e0db6ac41",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnPlus",
+      "targets": [
+        ["id=btnPlus", "id"],
+        ["css=#btnPlus", "css:finder"],
+        ["xpath=//i[@id='btnPlus']", "xpath:attributes"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1884236d-bd7d-45d2-a6d9-86e2893c2eeb",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnPlus",
+      "targets": [
+        ["id=btnPlus", "id"],
+        ["css=#btnPlus", "css:finder"],
+        ["xpath=//i[@id='btnPlus']", "xpath:attributes"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6eac2d1-3c21-4974-82ab-3e57a6cded5c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnPlus",
+      "targets": [
+        ["id=btnPlus", "id"],
+        ["css=#btnPlus", "css:finder"],
+        ["xpath=//i[@id='btnPlus']", "xpath:attributes"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "016ffffc-d031-4a58-864e-eae9f1a16917",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.e-bebek.com/"],
+  "plugins": []
+}
